@@ -108,3 +108,15 @@ header nav ul li a {
     font-weight: 300;
     margin-bottom: 20px;
 }
+
+.hot-drinks-bg {
+    background-color: #FFF0ED; /* Nitro Pink */
+}
+
+.cold-drinks-bg {
+    background-color: #F7F7F7; /* Light Gray */
+}
+
+.pastries-bg {
+    background-color: #FFF0ED; /* Nitro Pink */
+}
