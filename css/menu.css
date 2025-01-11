@@ -1,0 +1,110 @@
+/* Global Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF;
+    color: #393939;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #5BACC3;
+    color: #FFF;
+}
+
+header img {
+    width: 50px;
+}
+
+header h1 {
+    font-size: 33px;
+    font-weight: 300;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('../assets/coffee-circle.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-box {
+    background-color: #393939;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+}
+
+.title-box h2 {
+    font-size: 60px;
+    font-weight: 300;
+    margin: 0;
+}
+
+/* Sub Navigation */
+.sub-navigation {
+    background-color: #393939;
+    padding: 10px 0;
+}
+
+.sub-navigation ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+.sub-navigation ul li a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* Menu Sections */
+.menu-section {
+    padding: 40px;
+}
+
+.menu-section.nitro-pink {
+    background-color: #FFF0ED;
+}
+
+.menu-section.gray {
+    background-color: #F7F7F7;
+}
+
+.menu-section h2 {
+    font-size: 33px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
