@@ -1,4 +1,19 @@
-body {
-    font-family: 'Open Sans';
+/* Global Button Styles */
+.btn {
+    font-size: 18px;
     font-weight: 400;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn--primary {
+    background-color: #5BACC3; /* Nitro-blue */
+    color: #FFF;
+}
+
+.btn--primary:hover {
+    background-color: #393939; /* Graphite */
 }
