@@ -7,39 +7,6 @@ body {
     color: #393939;
 }
 
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: #5BACC3;
-    color: #FFF;
-}
-
-header img {
-    width: 50px;
-}
-
-header h1 {
-    font-size: 33px;
-    font-weight: 300;
-}
-
-header nav ul {
-    list-style-type: none;
-    display: flex;
-    gap: 20px;
-    padding: 0;
-    margin: 0;
-}
-
-header nav ul li a {
-    text-decoration: none;
-    color: #FFF;
-    font-size: 21px;
-    font-weight: 400;
-}
-
 /* Hero Section */
 .hero {
     background-image: url('../assets/coffee-circle.jpg');

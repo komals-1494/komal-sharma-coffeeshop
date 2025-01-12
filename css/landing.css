@@ -12,47 +12,6 @@ body {
     color: #393939; /* Graphite */
 }
 
-/* Header Section */
-
-.header {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start; /* Align items to the left */
-    gap: 20px; /* Adjust gap between the logo and nav section */
-    background-color: #FFF0ED; /* Nitro-pink */
-    padding: 20px 40px;
-}
-
-
-.header__logo {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.header__title {
-    font-size: 33px;
-    font-weight: 300;
-    color: #393939; /* Graphite */
-}
-
-.header__nav-list {
-    display: flex;
-    list-style: none;
-    gap: 20px;
-}
-
-.header__nav-link {
-    font-size: 21px;
-    font-weight: 400;
-    text-decoration: none;
-    color: #393939; /* Graphite */
-}
-
-.header__nav-link:hover {
-    text-decoration: underline;
-}
-
 /* Hero Section */
 .hero {
     display: flex;

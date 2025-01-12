@@ -3,18 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/menu.css">
     <title>Coffee Shop - Menu</title>
 </head>
 <body>
-    <header>
-        <img src="../assets/coffee-beans-logo-and-footer.svg" alt="Coffee Beans Logo">
-        <h2>nitro</h2>
-        <nav>
-            <ul>
-                <li><a href="#about">ABOUT</a></li>
-                <li><a href="#menu">MENU</a></li>
-                <li><a href="#shop">SHOP NOW</a></li>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="header__logo">
+            <a href="./index.html" class="header__nav-link"><img src="../assets/coffee-beans-logo-and-footer.svg" alt="coffee bean logo"></a>
+            <h2 class="header__title">nitro</h2>
+        </div>
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li><a href="../index.html" class="header__nav-link">ABOUT</a></li>
+                <li><a href="../pages/menu.html" class="header__nav-link">MENU</a></li>
+                <li><a href="../pages/menu.html" class="header__nav-link">SHOP NOW</a></li>
             </ul>
         </nav>
     </header>
