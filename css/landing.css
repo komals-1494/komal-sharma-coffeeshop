@@ -146,11 +146,11 @@ body {
 }
 
 a {
-    color: #fff;  /* Change this to your desired color */
+    color: #fff;  /* white */
 }
 
 .products__view-all:hover {
-    background-color: #4A94A4; /* Slightly darker blue */
+    background-color: #4A94A4;
 }
 
 /* Discount Section */
