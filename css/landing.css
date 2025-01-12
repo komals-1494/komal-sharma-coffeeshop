@@ -145,6 +145,10 @@ body {
     text-transform: uppercase;
 }
 
+a {
+    color: #fff;  /* Change this to your desired color */
+}
+
 .products__view-all:hover {
     background-color: #4A94A4; /* Slightly darker blue */
 }
