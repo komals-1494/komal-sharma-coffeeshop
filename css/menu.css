@@ -7,14 +7,14 @@ body {
     color: #393939;
 }
 
-/* Hero Section */
+/* Menu-specific styles */
 .hero {
-    background-image: url('../assets/coffee-circle.jpg');
+    background-image: url("../assets/coffee-circle.jpg"); 
     background-size: cover;
     background-position: center;
     height: 700px;
     display: flex;
-    align-items: center;
+    align-items: top;
     justify-content: center;
 }
 
@@ -23,59 +23,86 @@ body {
     width: 300px;
     height: 200px;
     display: flex;
-    align-items: left;
+    align-items: center;
     justify-content: center;
     color: #FFF;
-    text-align: center;
+    text-align: top;
 }
 
 .title-box h2 {
     font-size: 60px;
     font-weight: 300;
-    margin: 0;
 }
 
 /* Sub Navigation */
-.sub-navigation {
+#sub-navigation {
     background-color: #393939;
     padding: 10px 0;
 }
 
-.sub-navigation ul {
+#sub-navigation ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 50px;
     padding: 0;
     margin: 0;
 }
 
-.sub-navigation ul li a {
+#sub-navigation ul li a{
     text-decoration: none;
     color: #FFF;
     font-size: 18px;
     font-weight: 400;
 }
 
-/* Menu Sections */
+#sub-navigation ul li {
+    position: relative; 
+    padding: 10px 20px;
+}
+
+#sub-navigation ul li::before {
+    content: ""; 
+    display: block;
+    width: 1mm; 
+    height: 20px; 
+    background-color: #39A6A3; /* Nitro Blue line color */
+    position: absolute;
+    left: 0; 
+}
+
+/* Menu Section */
 .menu-section {
     padding: 40px;
-}
-
-.menu-section.nitro-pink {
-    background-color: #FFF0ED;
-}
-
-.menu-section.gray {
-    background-color: #F7F7F7;
+    text-align: center; 
 }
 
 .menu-section h2 {
     font-size: 33px;
     font-weight: 300;
     margin-bottom: 20px;
+    text-align: center; 
 }
 
+.menu-item {
+    max-width: 600px; 
+    margin: 20px auto; 
+    text-align: center; 
+}
+
+.menu-item h3 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.menu-item p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #393939; 
+}
+
+/* Background Colors */
 .hot-drinks-bg {
     background-color: #FFF0ED; /* Nitro Pink */
 }
@@ -87,3 +114,9 @@ body {
 .pastries-bg {
     background-color: #FFF0ED; /* Nitro Pink */
 }
+
+/* Price Styles */
+.price {
+    color: #5BACC3; /* Nitro Blue */
+}
+
